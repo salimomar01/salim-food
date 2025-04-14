@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>SALIM FOOD</title>
+  </head>
+  <body>
+    <main>
+      <nav class="bg-zinc-950 p-4 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+          <a href="#" class="text-xl font-bold text-stone-50"
+            >SALIM <span class="text-red-600">FOOD</span></a
+          >
+        </div>
+        <div class="flex justify-center gap-11">
+          <a href="about.html" class="text-yellow-300 hover:ext-stone-50">About</a>
+          <a href="contact.html" class="text-yellow-300 hover:ext-stone-50">Contact</a>
+          <a href="menu.html" class="text-yellow-300 hover:ext-stone-50">Menu</a>
+        </div>
+        <div class="flex items-center space-x-4">
+          <svg
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#ffc107"
+          >
+            <path
+              d="M3 3h2l.4 2M7 13h10l4-8H5.4"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <circle cx="9" cy="21" r="1" fill="#ffc107" />
+            <circle cx="20" cy="21" r="1" fill="#ffc107" />
+          </svg>
+        </div>
+      </nav>
+      <section class="relative h-screen bg-cover bg-center flex items-center" style="background-image: url('bg.jpg');">
+        <div class="w-full h-full bg-opacity-50 absolute top-0 left-0"></div>
+        <div class="container mx-auto px-6 relative z-10 text-white flex flex-col md:flex-row items-center justify-between">
+          
+          <!-- Text Content -->
+          <div class="max-w-xl">
+            <h3 class="text-5xl font-bold mb-4">SALIM <span class="text-red-600">FOOD</span></h3>
+            <p class="text-xl mb-2 text-red-50">Don't be late</p>
+            <div class="flex gap-4 mt-20">
+              <a href="about.html" class="bg-white text-black px-5 py-2 font-semibold rounded hover:bg-gray-200">About</a>
+              <a href="menu.html" class="bg-yellow-500 text-black px-5 py-2 font-semibold rounded hover:bg-yellow-400">SEE MENU</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
